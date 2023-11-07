@@ -1,0 +1,11 @@
+mat-toolbar {
+  justify-content: center;
+  height: 12vh;
+}
+
+span {
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 2px rgb(200 120 120);
+  font-family: 'Sacramento', cursive;
+}

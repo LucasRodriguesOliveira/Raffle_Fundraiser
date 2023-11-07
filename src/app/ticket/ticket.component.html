@@ -1,0 +1,31 @@
+<div class="item" *ngFor="let ticket of tickets">
+  <div class="client">
+    <div class="row number">
+      <span><small>Nº</small></span>
+      <span>{{ ticket.code }}</span>
+    </div>
+    <div class="row field">
+      <span>Nome:</span>
+      <span class="underline"></span>
+    </div>
+    <div class="row field">
+      <span>Telefone:</span>
+      <span class="underline"></span>
+    </div>
+  </div>
+  <div class="copy">
+    <div class="info">
+      <div class="number">
+        <span><small>Nº</small></span>
+        <span>{{ ticket.code }}</span>
+      </div>
+      <div class="price">
+        <span>R$ 5,00</span>
+      </div>
+    </div>
+    <div class="title">{{ title }}</div>
+    <div class="description">{{ description }}</div>
+    <div class="details">{{ details }}</div>
+    <div class="luck">{{ wishLuck }}</div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.container {
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  margin-top: 10vh;
+}
+
+.container > * {
+  width: 65%;
+}
+
+form {
+  display: flex;
+}

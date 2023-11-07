@@ -1,0 +1,102 @@
+.item {
+  background-color: white;
+  border: 2px solid rgb(50 50 50);
+  border-bottom: 1px;
+  margin: 0 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item:last-child {
+  border-bottom: 2px solid;
+}
+
+.client {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-right: 2px dashed black;
+  width: 30%;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.row {
+  padding: 10px;
+  margin: 5px;
+}
+
+.number, .price {
+  font-weight: bold;
+  font-family: 'Sometype Mono', monospace;
+}
+
+.number span {
+  margin-right: 5px;
+}
+
+.number span:last-child {
+  font-size: 1.1rem;
+}
+
+.row.field {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+
+.row.field .underline {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+  margin-left: 3px;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: center;
+  width: 80%;
+}
+
+.luck {
+  font-family: 'Dancing Script', cursive;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy > * {
+  margin-bottom: 10px;
+}
+
+.copy .number {
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price, .number {
+  width: 100%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.price {
+  text-align: right;
+}
