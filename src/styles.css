@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,400;0,700;1,400&family=Sacramento&family=Sometype+Mono:wght@400;700&display=swap');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 * {
   box-sizing: border-box;
